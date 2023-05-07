@@ -36,6 +36,19 @@
        </plugins> 
     </build>
 
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>mahesh-releases</name>
+        <url>http://18.221.209.64:8081/artifactory/vmtutes</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>mahesh-snapshots</name>
+        <url>http://18.221.209.64:8081/artifactory/vmtutes</url>
+    </snapshotRepository>
+</distributionManagement>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
