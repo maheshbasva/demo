@@ -4,7 +4,7 @@
 
   <groupId>demo</groupId>
   <artifactId>ssample</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>153.0-SNAPSHOT</version>
 
   <properties>
     <maven.compiler.source>1.7</maven.compiler.source>
@@ -27,7 +27,7 @@
                    </goals>
                    <configuration> 
                    <tasks> 
-                      <echo>hallo world=============</echo> 
+                      <echo>hello world=============</echo> 
                    </tasks> 
                    </configuration>
               </execution> 
